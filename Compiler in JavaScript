@@ -1,0 +1,7 @@
+const lexer = str =>{
+    return str.split(" ").map(item=>{
+        return item.trim()
+    })
+}
+
+console.log(lexer("add 6 with 4"))
